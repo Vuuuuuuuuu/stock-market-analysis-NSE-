@@ -36,3 +36,8 @@ The system uses **machine learning models (XGBoost)** trained on historical NSE 
 └── requirements.txt           # Python dependencies
 
 ```
+## 📊 DATA
+- The data set is downloaded from kaggle
+- We can use the dataset_creation notebook from notebooks folder to make the raw dataset
+- Using the preprocessing note book we can make our final data set which is the nse_cleaned.csv
+- https://www.kaggle.com/datasets/stoicstatic/india-stock-data-nse-1990-2020
