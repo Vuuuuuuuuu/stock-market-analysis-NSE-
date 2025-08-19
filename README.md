@@ -24,3 +24,9 @@ The system uses **machine learning models (XGBoost)** trained on historical NSE 
 ---
 
 ## 📂 Project Structure
+├── app.py # Flask backend (API + model training/prediction logic)
+├── welcome.html # Landing page (intro + navigation)
+├── prediction.html # Dashboard with charts & metrics
+├── models/ # Trained models & scalers (ignored in .gitignore)
+├── requirements.txt # Python dependencies
+└── nse_cleaned.csv # Historical dataset (optional / not pushed to GitHub)
